@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="UWP.App1.MyApp.RestaurantPages.CreateOrUpdate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP.App1.MyApp.RestaurantPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <TextBlock x:ConnectionId='10' x:Name="AddUpdatePageTitle" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center">Create a new Item</TextBlock>
+            <TextBlock FontStyle="Italic" HorizontalAlignment="Center">Modify In Memory Data Source</TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,10" Grid.RowSpan="2">
+            <Grid Height="310" Margin="20, 10, 10, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Margin="0,0,0,60" d:LayoutOverrides="TopPosition, BottomPosition">
+                    <TextBlock Margin="0, 10, 0, 8"> <Run Text="ID"/></TextBlock>
+                    <TextBlock Margin="0, 6, 0, 8">  <Run Text="Name"/></TextBlock>
+                    <TextBlock Margin="0, 10, 0, 0"> <Run Text="Quantity"/></TextBlock>
+                    <TextBlock Margin="0, 20, 0, 0"> <Run Text="Buyer"/></TextBlock>
+                    <TextBlock Margin="0, 6, 0, 8">  <Run Text="Price"/></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="0,0,0,60" d:LayoutOverrides="TopPosition, BottomPosition">
+                    <TextBox x:ConnectionId='5' x:Name="ID" IsReadOnly="True" Background="Silver" Margin="0, 2, 0, 2"/>
+                    <TextBox x:ConnectionId='6' x:Name="Name" Margin="0, 2, 0, 2"/>
+                    <TextBox x:ConnectionId='7' x:Name="Quantity" Margin="0, 2, 0, 2"/>
+                    <TextBox x:ConnectionId='8' x:Name="Buyer" Margin="0, 2, 0, 2"/>
+                    <TextBox x:ConnectionId='9' x:Name="Price" Margin="0, 2, 0, 2"/>
+                </StackPanel>
+
+                <StackPanel x:ConnectionId='2' Grid.Column="1" Name="sp1" Orientation="Horizontal">
+                    <Button x:ConnectionId='3' x:Name="actionButton" Margin="0,0,0,4"                      VerticalAlignment="Bottom" Content="Save"/>
+                    <Button x:ConnectionId='4' Margin="10,0,0,4"                       VerticalAlignment="Bottom" >Cancel</Button>
+                </StackPanel>
+
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+
+</Page>
+

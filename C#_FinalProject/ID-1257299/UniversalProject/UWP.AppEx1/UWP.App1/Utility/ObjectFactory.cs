@@ -1,0 +1,55 @@
+﻿using ConPJ1.DTO;
+using ConPJ1.MyApp;
+using ConPJ1.Repository;
+
+namespace ConPJ1.Utility
+{
+    public class Factory
+    {
+        public static Packages SelectedPackage;
+
+        public static IMyApp GetApp()
+        {
+            IMyApp app = null;
+            switch (Factory.SelectedPackage)
+            {
+                case Packages.Product:
+                    //app = new AppRestaurant();
+                    break;
+                default:
+                    app = null;
+                    break;
+            }            
+            return app;
+        }
+        public static IRepository GetRepo()
+        {
+            IRepository repo = null;
+            switch (Factory.SelectedPackage)
+            {
+                case Packages.Product:
+                    repo = new RepoProduct();
+                    break;
+                default:
+                    repo = null;
+                    break;
+            }
+            return repo;
+        }
+
+        public static IObject GetDTO()
+        {
+            IObject dto = null;
+            switch (Factory.SelectedPackage)
+            {
+                case Packages.Product:
+                    dto = new Product();
+                    break;
+                default:
+                    dto = null;
+                    break;
+            }
+            return dto;
+        }
+    }//c
+}//ns

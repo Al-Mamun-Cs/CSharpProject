@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="UWP.App1.MyApp.RestaurantPages.ShowAll"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP.App1.MyApp.RestaurantPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    xmlns:data ="using:ConPJ1.DTO"
+    >
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
+        <Grid x:ConnectionId='2' Name="viewList">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0">
+                <TextBlock FontSize="25" FontWeight="Bold" HorizontalAlignment="Center">Product</TextBlock>
+                <TextBlock HorizontalAlignment="Center">CRUD Operation</TextBlock>
+                <Button x:ConnectionId='11' Margin="10, 0, 0, 0"                     >Add New Item</Button>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1">
+                <ListView x:ConnectionId='3' Name="listView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate                            >
+                            <Grid x:ConnectionId='4' Margin="5" Background="AliceBlue" Width="900" >
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="300"></ColumnDefinition>
+                                    <ColumnDefinition Width="200"></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:ConnectionId='5'                                      Grid.Row="0" Grid.Column="0" Style="{StaticResource BaseTextBlockStyle}"></TextBlock>
+                                <TextBlock x:ConnectionId='6'                                       Grid.Row="0" Grid.Column="2" Style="{StaticResource CaptionTextBlockStyle}"></TextBlock>
+                                <TextBlock x:ConnectionId='7'                                       Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1"></TextBlock>
+                                <TextBlock x:ConnectionId='8'                                      Grid.Row="2" Grid.Column="0"></TextBlock>
+                                
+                                <Button x:ConnectionId='9'                                                     Grid.Row="0" Grid.Column="3">Update</Button>
+                                <Button x:ConnectionId='10'                                                     Grid.Row="0" Grid.Column="4">Delete</Button>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </Grid>
+
+
+    </Grid>
+
+</Page>
+

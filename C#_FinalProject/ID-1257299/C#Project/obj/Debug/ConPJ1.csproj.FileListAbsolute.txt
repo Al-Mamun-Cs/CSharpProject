@@ -1,0 +1,70 @@
+D:\Files\m03___Csharp\Core.ConApp\ConPJ1\bin\Debug\ConPJ1.exe.config
+D:\Files\m03___Csharp\Core.ConApp\ConPJ1\bin\Debug\ConPJ1.exe
+D:\Files\m03___Csharp\Core.ConApp\ConPJ1\bin\Debug\ConPJ1.pdb
+D:\Files\m03___Csharp\Core.ConApp\ConPJ1\obj\Debug\ConPJ1.exe
+D:\Files\m03___Csharp\Core.ConApp\ConPJ1\obj\Debug\ConPJ1.pdb
+D:\Files\m03___Csharp\ConPJ1\bin\Debug\ConPJ1.exe.config
+D:\Files\m03___Csharp\ConPJ1\bin\Debug\ConPJ1.exe
+D:\Files\m03___Csharp\ConPJ1\bin\Debug\ConPJ1.pdb
+D:\Files\m03___Csharp\ConPJ1\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+D:\Files\m03___Csharp\ConPJ1\obj\Debug\ConPJ1.exe
+D:\Files\m03___Csharp\ConPJ1\obj\Debug\ConPJ1.pdb
+E:\Mohiuddin_44\ConPJ1\bin\Debug\ConPJ1.exe.config
+E:\Mohiuddin_44\ConPJ1\bin\Debug\ConPJ1.exe
+E:\Mohiuddin_44\ConPJ1\bin\Debug\ConPJ1.pdb
+E:\Mohiuddin_44\ConPJ1\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+E:\Mohiuddin_44\ConPJ1\obj\Debug\ConPJ1.exe
+E:\Mohiuddin_44\ConPJ1\obj\Debug\ConPJ1.pdb
+C:\Users\GWC IDB\Desktop\C#Project  24\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+C:\Users\GWC IDB\Desktop\C#Project  24\obj\Debug\ConPJ1.csproj.CoreCompileInputs.cache
+C:\Users\GWC IDB\Desktop\C#Project  24\obj\Debug\ConPJ1.exe
+C:\Users\GWC IDB\Desktop\C#Project  24\obj\Debug\ConPJ1.pdb
+G:\C#Project  24\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+G:\C#Project  24\obj\Debug\ConPJ1.csproj.CoreCompileInputs.cache
+G:\C#Project  24\obj\Debug\ConPJ1.exe
+G:\C#Project  24\obj\Debug\ConPJ1.pdb
+C:\Users\LAB-1\Desktop\C#Project  24\bin\Debug\ConPJ1.exe.config
+C:\Users\LAB-1\Desktop\C#Project  24\bin\Debug\ConPJ1.exe
+C:\Users\LAB-1\Desktop\C#Project  24\bin\Debug\ConPJ1.pdb
+C:\Users\LAB-1\Desktop\C#Project  24\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+C:\Users\LAB-1\Desktop\C#Project  24\obj\Debug\ConPJ1.exe
+C:\Users\LAB-1\Desktop\C#Project  24\obj\Debug\ConPJ1.pdb
+F:\New\C#Project  24\bin\Debug\ConPJ1.exe.config
+F:\New\C#Project  24\bin\Debug\ConPJ1.exe
+F:\New\C#Project  24\bin\Debug\ConPJ1.pdb
+F:\New\C#Project  24\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+F:\New\C#Project  24\obj\Debug\ConPJ1.exe
+F:\New\C#Project  24\obj\Debug\ConPJ1.pdb
+F:\New\C#Project  1257299\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+F:\New\C#Project  1257299\obj\Debug\ConPJ1.exe
+F:\New\C#Project  1257299\obj\Debug\ConPJ1.pdb
+F:\New\C#Project  1257299\bin\Debug\ConPJ1.exe.config
+F:\New\C#Project  1257299\bin\Debug\ConPJ1.exe
+F:\New\C#Project  1257299\bin\Debug\ConPJ1.pdb
+C:\Users\LAB-1\Desktop\ID-1257299\C#Project\bin\Debug\ConPJ1.exe.config
+C:\Users\LAB-1\Desktop\ID-1257299\C#Project\bin\Debug\ConPJ1.exe
+C:\Users\LAB-1\Desktop\ID-1257299\C#Project\bin\Debug\ConPJ1.pdb
+C:\Users\LAB-1\Desktop\ID-1257299\C#Project\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+C:\Users\LAB-1\Desktop\ID-1257299\C#Project\obj\Debug\ConPJ1.exe
+C:\Users\LAB-1\Desktop\ID-1257299\C#Project\obj\Debug\ConPJ1.pdb
+I:\ID-1257299\C#Project\bin\Debug\ConPJ1.exe.config
+I:\ID-1257299\C#Project\bin\Debug\ConPJ1.exe
+I:\ID-1257299\C#Project\bin\Debug\ConPJ1.pdb
+I:\ID-1257299\C#Project\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+I:\ID-1257299\C#Project\obj\Debug\ConPJ1.csproj.CoreCompileInputs.cache
+I:\ID-1257299\C#Project\obj\Debug\ConPJ1.exe
+I:\ID-1257299\C#Project\obj\Debug\ConPJ1.pdb
+D:\C#\ID-1257299\C#Project\bin\Debug\ConPJ1.exe.config
+D:\C#\ID-1257299\C#Project\bin\Debug\ConPJ1.exe
+D:\C#\ID-1257299\C#Project\bin\Debug\ConPJ1.pdb
+D:\C#\ID-1257299\C#Project\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+D:\C#\ID-1257299\C#Project\obj\Debug\ConPJ1.csproj.CoreCompileInputs.cache
+D:\C#\ID-1257299\C#Project\obj\Debug\ConPJ1.exe
+D:\C#\ID-1257299\C#Project\obj\Debug\ConPJ1.pdb
+F:\Me\C#\ID-1257299\C#Project\bin\Debug\ConPJ1.exe.config
+F:\Me\C#\ID-1257299\C#Project\bin\Debug\ConPJ1.exe
+F:\Me\C#\ID-1257299\C#Project\bin\Debug\ConPJ1.pdb
+F:\Me\C#\ID-1257299\C#Project\obj\Debug\ConPJ1.csprojAssemblyReference.cache
+F:\Me\C#\ID-1257299\C#Project\obj\Debug\ConPJ1.csproj.CoreCompileInputs.cache
+F:\Me\C#\ID-1257299\C#Project\obj\Debug\ConPJ1.exe
+F:\Me\C#\ID-1257299\C#Project\obj\Debug\ConPJ1.pdb
